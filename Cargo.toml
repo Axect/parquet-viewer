@@ -4,10 +4,11 @@ version = "0.1.0"
 edition = "2024"
 authors = ["axect <axect@outlook.kr>"]
 repository = "https://github.com/Axect/parquet-viewer"
-description = "A simple parquet viewer"
-license = "MIT OR Apache-2.0"
+description = "A simple command-line tool to view Apache Parquet files."
+readme = "README.md"
+license = "MIT"
 categories = ["command-line-utilities"]
-keywords = ["parquet", "viewer"]
+keywords = ["parquet", "cli", "viewer", "dataframe", "data"]
 
 [dependencies]
 peroxide = { version = "0.39.5", features = ["parquet"] }
