@@ -1,0 +1,13 @@
+[package]
+name = "parquet-viewer"
+version = "0.1.0"
+edition = "2024"
+authors = ["axect <axect@outlook.kr>"]
+repository = "https://github.com/Axect/parquet-viewer"
+description = "A simple parquet viewer"
+license = "MIT OR Apache-2.0"
+categories = ["command-line-utilities"]
+keywords = ["parquet", "viewer"]
+
+[dependencies]
+peroxide = { version = "0.39.5", features = ["parquet"] }
