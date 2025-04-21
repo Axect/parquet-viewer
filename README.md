@@ -19,8 +19,8 @@ cargo install parquet-viewer
 Alternatively, you can clone the repository and build it locally:
 
 ```bash
-# git clone <your-repository-url> # Replace with your repo URL if you have one
-# cd parquet-viewer
+git clone https://github.com/Axect/parquet-viewer
+cd parquet-viewer
 cargo build --release
 # The executable will be in ./target/release/parquet-viewer
 ```
